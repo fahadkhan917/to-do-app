@@ -53,9 +53,7 @@ e.parentNode.remove();
 
 
 function ed(e){
-    
-    //  var edi=prompt("enter the change");
-    console.log(list.childNodes[1].childNodes[0]);
-    console.log(e.parentNode.first);
-    
+    var val=e.parentNode.firstChild.nodeValue;
+    var edi=prompt("enter the change",val);
+    e.parentNode.firstChild.nodeValue=edi;
     }
