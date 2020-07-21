@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
 
 body{
 
 background-image: url(background.png);
 background-position: center;
+
+}
+
+h1{
+
+text-align: center;
 
 }
 
@@ -22,14 +29,34 @@ width: 500px;
 margin: 0 auto;
 
   }
+
+  .fi{
+
+margin-top: 30px;
+background-color: cornflowerblue;
+display: inline-block;
+  }
   .bot{
 
 background-color: chocolate;
-height: 400px;
+height: 350px;
 width: 300px;
 margin: 0 auto;
 margin-top: 50px;
 
+
+  }
+
+  
+  li{
+
+    list-style-type: none; 
+  }
+
+  .txt{
+ 
+ padding: 10px;
+ background-color: floralwhite;
 
   }
 
@@ -38,9 +65,11 @@ margin-top: 50px;
 <body>
     <h1>TO-DO APPLICATION</h1>
     <div class="top">
+        <div class="fi">
   <input type="text"  id="val">
   <input type="button" value="Submit" onclick="todo()">
   <button onclick="del()">Delete all</button>
+</div>
 <div class="bot">
 <ul id="list">
 
