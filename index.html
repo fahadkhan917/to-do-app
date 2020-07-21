@@ -60,15 +60,23 @@ margin-top: 50px;
 
   }
 
+  .in{
+  
+  padding: 5px;
+  
+
+
+  }
+
     </style>
 </head>
 <body>
     <h1>TO-DO APPLICATION</h1>
     <div class="top">
         <div class="fi">
-  <input type="text"  id="val">
-  <input type="button" value="Submit" onclick="todo()">
-  <button onclick="del()">Delete all</button>
+  <input type="text"  id="val" class="in">
+  <input type="button" value="Submit" onclick="todo()" class="btn btn-success">
+  <button onclick="del()" class="btn btn-danger">Delete all</button>
 </div>
 <div class="bot">
 <ul id="list">
