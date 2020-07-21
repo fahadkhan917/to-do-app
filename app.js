@@ -1,7 +1,6 @@
 
-
-function todo(){
 var list=document.getElementById("list");
+function todo(){
 var val=document.getElementById("val");
 
 var l=document.createElement('li');
@@ -10,6 +9,16 @@ l.appendChild(text);
 list.append(l);
 
 val.value='';
+
+
+}
+
+function del(){
+
+
+    list.remove();
+    
+
 
 
 }
