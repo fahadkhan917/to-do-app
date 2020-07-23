@@ -50,6 +50,7 @@ function del(){
 }
 
 function deletebtn(e){
+console.log(e.parentNode);    
 e.parentNode.remove();
 
 }
